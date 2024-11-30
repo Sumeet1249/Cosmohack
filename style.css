@@ -154,7 +154,7 @@ header .container .content .extra-nav button:hover .icon {
 .hero {
   position: relative;
   min-height: 100vh;
-  background: url("/assets/bg.jpeg");
+  background: url("/images/bg.jpeg");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -245,7 +245,7 @@ header .container .content .extra-nav button:hover .icon {
   bottom: -80%;
   width: 70em;
   height: 70em;
-  background-image: url("/assets/moon.jpg");
+  background-image: url("/images/moon.jpg");
   background-size: 200% 100%;
   border-radius: 50%;
   filter: brightness(75%);
