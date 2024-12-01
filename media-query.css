@@ -105,6 +105,11 @@
     margin: 0 auto;
   }
 
+  .about .container .content .text-action p{
+    text-align: justify;
+    padding: 0.5rem;
+  }
+
   /* Status Section */
   .status .container .content {
     padding: 4rem 0;
@@ -130,6 +135,7 @@
   .status .container .content .planet .earth {
     margin: 0 auto;
   }
+
 
   /* Destination Section */
   .destination {
@@ -227,15 +233,6 @@
   .sponsor img {
     width: 80px;
   }
-
-  .why-us {
-    margin-bottom: 265px;
-  }
-
-  .why-us p {
-    text-align: justify;
-    padding: 0.5rem;
-  }
 }
 
 /* Tablet devices */
@@ -278,6 +275,11 @@
   /* About Section */
   .about .container .content .text-action {
     width: 80%;
+  }
+
+  .about .container .content .text-action p{
+    text-align: justify;
+    padding: 0.5rem;
   }
 
   /* Status Section */
