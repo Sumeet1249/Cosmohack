@@ -1,0 +1,325 @@
+/* Base styles for mobile devices */
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  /* Header */
+  header .container .content {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  header .container .content .logo {
+    margin-bottom: 1rem;
+  }
+
+  header .container .content .logo img {
+    width: 60px;
+  }
+
+  header .container .content .extra-nav {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Hero Section */
+  .hero .container .content {
+    padding: 4rem 0 2rem;
+  }
+
+  .hero .container .content .text {
+    margin-bottom: 20%;
+  }
+
+  .hero .container .content .text h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .hero .container .content .text p {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .hero .container .content .text a {
+    width: 80%;
+    max-width: 250px;
+  }
+
+  .hero .container .content .moon {
+    width: 200%;
+    height: 200%;
+    bottom: -150%;
+    left: -50%;
+  }
+
+  /* Why Us Section */
+  .why-us .container .content {
+    padding: 4rem 0;
+  }
+
+  .why-us .container .content .title h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .why-us .container .content .title p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .why-us .container .content .reason {
+    flex-direction: column;
+  }
+
+  .why-us .container .content .reason .card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  /* About Section */
+  .about {
+    background-position: center right;
+  }
+
+  .about .container .content {
+    align-items: center;
+    padding: 4rem 0;
+  }
+
+  .about .container .content .text-action {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about .container .content h1 {
+    font-size: 2rem;
+  }
+
+  .about .container .content a {
+    width: 80%;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  /* Status Section */
+  .status .container .content {
+    padding: 4rem 0;
+  }
+
+  .status .container .content .planet {
+    transform: scale(0.8);
+    margin-top: 2rem;
+  }
+
+  .status .container .content .planet .desc {
+    display: block;
+    position: static;
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .status .container .content .planet .desc hr {
+    display: none;
+  }
+
+  .status .container .content .planet .earth {
+    margin: 0 auto;
+  }
+
+
+  /* Destination Section */
+  .destination {
+    padding: 4rem 0;
+  }
+
+  .destination .container .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: auto;
+  }
+
+  .destination .container .content .title,
+  .destination .container .content .items {
+    width: 100%;
+  }
+
+  .destination .container .content .title h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .destination .container .content .title p {
+    text-align: center;
+  }
+
+  .destination .container .content .title a {
+    width: 80%;
+    max-width: 250px;
+    margin: 1rem auto;
+  }
+
+  .destination .container .content .items {
+    height: 200px;
+  }
+
+  /* Contact Section */
+  .contact {
+    padding: 4rem 0;
+  }
+
+  .contact .container .content {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .contact .container .content .left-side,
+  .contact .container .content .right-side {
+    width: 100%;
+  }
+
+  .contact .container .content .left-side h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .contact .container .content .left-side p {
+    text-align: center;
+  }
+
+  .contact .container .content .right-side form {
+    padding: 2rem;
+  }
+
+  .contact .container .content .right-side form .row-1,
+  .contact .container .content .right-side form .row-2 {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact .container .content .right-side form .row-1 input,
+  .contact .container .content .right-side form .row-2 input {
+    width: 100%;
+  }
+
+  .contact .container .content .right-side form button {
+    width: 100%;
+  }
+
+  /* Sponsors Section */
+  .sponsors-section h2 {
+    font-size: 2rem;
+  }
+
+  .sponsors-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .sponsor {
+    width: 45%;
+    padding: 15px;
+  }
+
+  .sponsor img {
+    width: 80px;
+  }
+}
+
+/* Tablet devices */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    padding: 0 2rem;
+  }
+
+  /* Hero Section */
+  .hero .container .content .text h1 {
+    font-size: 3rem;
+  }
+
+  .hero .container .content .text p {
+    width: 80%;
+  }
+
+  .hero .container .content .moon {
+    width: 150%;
+    height: 150%;
+    bottom: -100%;
+    left: -25%;
+  }
+
+  /* Why Us Section */
+  .why-us .container .content .title p {
+    width: 80%;
+  }
+
+  .why-us .container .content .reason {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .why-us .container .content .reason .card {
+    width: 48%;
+    margin-bottom: 2rem;
+  }
+
+  /* About Section */
+  .about .container .content .text-action {
+    width: 80%;
+  }
+
+  /* Status Section */
+  .status .container .content .planet {
+    transform: scale(0.7);
+  }
+
+  .status .container .content .planet .desc {
+    font-size: 0.9rem;
+  }
+
+  /* Destination Section */
+  .destination .container .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .destination .container .content .title {
+    grid-column: span 2;
+  }
+
+  .destination .container .content .items {
+    height: 250px;
+  }
+
+  /* Contact Section */
+  .contact .container .content {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .contact .container .content .left-side,
+  .contact .container .content .right-side {
+    width: 50%;
+  }
+}
+
+/* Larger screens */
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+/* Ensure smooth scrolling for all devices */
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
