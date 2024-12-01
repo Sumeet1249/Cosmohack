@@ -105,6 +105,11 @@
     margin: 0 auto;
   }
 
+  .about .container .content .text-action p{
+    text-align: justify;
+    padding: 0.5rem;
+  }
+
   /* Status Section */
   .status .container .content {
     padding: 4rem 0;
@@ -270,6 +275,11 @@
   /* About Section */
   .about .container .content .text-action {
     width: 80%;
+  }
+
+  .about .container .content .text-action p{
+    text-align: justify;
+    padding: 0.5rem;
   }
 
   /* Status Section */
