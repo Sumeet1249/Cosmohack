@@ -131,7 +131,6 @@
     margin: 0 auto;
   }
 
-
   /* Destination Section */
   .destination {
     padding: 4rem 0;
@@ -227,6 +226,15 @@
 
   .sponsor img {
     width: 80px;
+  }
+
+  .why-us {
+    margin-bottom: 265px;
+  }
+
+  .why-us p {
+    text-align: justify;
+    padding: 0.5rem;
   }
 }
 
