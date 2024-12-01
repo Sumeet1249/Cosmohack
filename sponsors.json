@@ -1,0 +1,15 @@
+[
+    {
+      "logo": "path/to/logo1.png",
+      "website": "https://company1.com",
+      "name": "Company 1",
+      "type": "Gold"
+    },
+    {
+      "logo": "path/to/logo2.png",
+      "website": "https://company2.com",
+      "name": "Company 2",
+      "type": "Platinum"
+    }
+
+  ]
