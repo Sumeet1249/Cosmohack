@@ -383,7 +383,7 @@ header .container .content .extra-nav button:hover .icon {
 
 .about {
   min-height: 100vh;
-  background: url("/assets/about.png");
+  background: url("./images/about.png");
   background-size: cover;
   overflow: hidden;
 }
@@ -483,7 +483,7 @@ header .container .content .extra-nav button:hover .icon {
   position: relative;
   width: 35em;
   height: 35em;
-  background-image: url("/assets/earth.jpg");
+  background-image: url("./images/earth.jpg");
   background-size: 200% 100%;
   background-repeat: repeat;
   border-radius: 50%;
@@ -500,7 +500,7 @@ header .container .content .extra-nav button:hover .icon {
     transform: translateY(-50%);
     width: 6em;
     height: 6em;
-    background-image: url("/assets/moon.jpg");
+    background-image: url("./images/moon.jpg");
     background-size: 200% 100%;
     background-repeat: repeat;
     border-radius: 50%;
@@ -700,7 +700,7 @@ header .container .content .extra-nav button:hover .icon {
   grid-column: span 2 / span 2;
   grid-row: span 2 / span 2;
   grid-column-start: 3;
-  background: url("/assets/saturn.jpeg");
+  background: url("./images/saturn.jpeg");
 }
 
 .destination .container .content .moon {
@@ -709,7 +709,7 @@ header .container .content .extra-nav button:hover .icon {
   grid-column-start: 1;
   grid-row-start: 3;
   padding: 1rem;
-  background: url("/assets/moon.jpeg");
+  background: url("./images/moon.jpeg");
   background-size: cover;
   background-position: center;
   border: 2px solid var(--darkgray);
@@ -721,7 +721,7 @@ header .container .content .extra-nav button:hover .icon {
   grid-column-start: 3;
   grid-row-start: 3;
   padding: 1rem;
-  background: url("/assets/eyropa.jpeg");
+  background: url("./images/eyropa.jpeg");
   background-size: cover;
   background-position: center;
   border: 2px solid var(--darkgray);
@@ -733,7 +733,7 @@ header .container .content .extra-nav button:hover .icon {
   grid-column-start: 4;
   grid-row-start: 3;
   padding: 1rem;
-  background: url("/assets/mercury.jpeg");
+  background: url("./images/mercury.jpeg");
   background-size: cover;
   background-position: center;
   border: 2px solid var(--darkgray);
@@ -746,7 +746,7 @@ header .container .content .extra-nav button:hover .icon {
   grid-column-start: 1;
   grid-row-start: 5;
   padding: 1rem;
-  background: url("/assets/blackhole.jpeg");
+  background: url("./images/blackhole.jpeg");
   background-size: cover;
   background-position: center;
   border: 2px solid var(--darkgray);
@@ -758,7 +758,7 @@ header .container .content .extra-nav button:hover .icon {
   grid-column-start: 3;
   grid-row-start: 5;
   padding: 1rem;
-  background: url("/assets/titan.jpeg");
+  background: url("./images/titan.jpeg");
   background-size: cover;
   background-position: center;
   border: 2px solid var(--darkgray);
@@ -770,7 +770,7 @@ header .container .content .extra-nav button:hover .icon {
   grid-column-start: 4;
   grid-row-start: 5;
   padding: 1rem;
-  background: url("/assets/neptune.jpeg");
+  background: url("./images/neptune.jpeg");
   background-size: cover;
   background-position: center;
   border: 2px solid var(--darkgray);
@@ -783,7 +783,7 @@ header .container .content .extra-nav button:hover .icon {
   grid-column-start: 3;
   grid-row-start: 7;
   padding: 1rem;
-  background: url("/assets/mars.jpeg");
+  background: url("./images/mars.jpeg");
   background-size: cover;
   background-position: center;
   border: 2px solid var(--darkgray);
@@ -793,7 +793,7 @@ header .container .content .extra-nav button:hover .icon {
 .contact {
   position: relative;
   padding: 4rem 0;
-  background: url("/assets/contact.jpeg");
+  background: url("./images/contact.jpeg");
   background-size: cover;
   background-position: center;
   min-height: 80vh;
