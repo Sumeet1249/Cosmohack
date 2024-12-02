@@ -24,6 +24,12 @@
     justify-content: center;
   }
 
+  header .container .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   /* Hero Section */
   .hero .container .content {
     padding: 4rem 0 2rem;
@@ -59,6 +65,7 @@
   /* Why Us Section */
   .why-us .container .content {
     padding: 4rem 0;
+    height: auto;
   }
 
   .why-us .container .content .title h1 {
@@ -115,13 +122,20 @@
   }
 
   /* Status Section */
+
+  .status {
+    padding-bottom: 13rem;
+  }
+
   .status .container .content {
     padding: 4rem 0;
+    height: auto;
   }
 
   .status .container .content .planet {
     transform: scale(0.8);
     margin-top: 2rem;
+    position: relative;
   }
 
   .status .container .content .planet .desc {
@@ -139,6 +153,7 @@
   .status .container .content .planet .earth {
     margin: 0 auto;
   }
+
 
 
   /* Destination Section */
