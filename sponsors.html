@@ -18,6 +18,7 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
+            margin-bottom: 50px;
         }
         .header {
             text-align: center;
@@ -73,6 +74,15 @@
             display: block;
             margin: 0 auto 10px;
         }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #403d3d;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -102,7 +112,10 @@
             </div>
         </div>
     </div>
+    <!-- This is the footer section -->
+<footer>
 
+</footer>
     <script>
         fetch('sponsors.json')
             .then(response => response.json())
