@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(/images/sponsors.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #333;
+            color: #fff;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .sponsors {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            margin-top: 30px;
+            backdrop-filter: blur(10px);
+            background-color: rgba(90, 88, 88, 0.7);
+            padding:20px;
+            border-radius: 50px;
+        }
+        .sponsor-level {
+            width: 100%;
+        }
+        .sponsor-level h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .sponsor-level .sponsor-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .sponsor {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 200px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+        .sponsor:hover{
+            background-color: rgba(0, 0, 0, 0.9);
+            transform: scale(1.1);
+            box-shadow: 0 0 40px rgba(0, 0, 0, 1);
+        }
+        .sponsor img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Our Sponsors</h1>
+            <p>We are grateful for the support of our amazing sponsors.</p>
+        </div>
+        <div class="sponsors" id="sponsors">
+            <div class="sponsor-level" id="platinum-sponsors">
+                <h2>Platinum Sponsors</h2>
+                <div class="sponsor-container">
+                    <!-- Platinum sponsors will be dynamically added here -->
+                </div>
+            </div>
+            <div class="sponsor-level" id="gold-sponsors">
+                <h2>Gold Sponsors</h2>
+                <div class="sponsor-container">
+                    <!-- Gold sponsors will be dynamically added here -->
+                </div>
+            </div>
+            <div class="sponsor-level" id="silver-sponsors">
+                <h2>Silver Sponsors</h2>
+                <div class="sponsor-container">
+                    <!-- Silver sponsors will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        fetch('sponsors.json')
+            .then(response => response.json())
+            .then(sponsors => {
+                const sponsorLevels = {
+                    platinum: document.querySelector('#platinum-sponsors .sponsor-container'),
+                    gold: document.querySelector('#gold-sponsors .sponsor-container'),
+                    silver: document.querySelector('#silver-sponsors .sponsor-container')
+                };
+
+                sponsors.forEach(sponsor => {
+                    const sponsorDiv = document.createElement('div');
+                    sponsorDiv.classList.add('sponsor');
+                    sponsorDiv.innerHTML = `
+                        <img src="${sponsor.logo}" alt="${sponsor.name}">
+                        <h3>${sponsor.name}</h3>
+                        <p>${sponsor.description}</p>
+                    `;
+                    sponsorLevels[sponsor.level].appendChild(sponsorDiv);
+                });
+            })
+            .catch(error => console.error('Error fetching sponsors:', error));
+    </script>
+</body>
+</html>
