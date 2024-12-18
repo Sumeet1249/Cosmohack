@@ -1,0 +1,9 @@
+[
+  { "name": "Sponsor 1", "description": "Description for sponsor 1", "logo": "logo1.png", "level": "platinum" },
+  { "name": "Sponsor 2", "description": "Description for sponsor 2", "logo": "logo2.png", "level": "gold" },
+  { "name": "Sponsor 3", "description": "Description for sponsor 3", "logo": "logo3.png", "level": "silver" },
+  { "name": "Sponsor 4", "description": "Description for sponsor 4", "logo": "logo4.png", "level": "platinum" },
+  { "name": "Sponsor 5", "description": "Description for sponsor 5", "logo": "logo5.png", "level": "gold" },
+  { "name": "Sponsor 6", "description": "Description for sponsor 6", "logo": "logo6.png", "level": "silver" }
+  
+]
